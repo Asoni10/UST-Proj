@@ -16,5 +16,5 @@ def check_password_validity(passwords):
 
 
 input_password = "asqwr1234@1,aF145#,2w3E*,2We3345"
-output = check_password_validity(input_password)
-print("Output =", output)
+# output = check_password_validity(input_password)
+# print("Output =", output)

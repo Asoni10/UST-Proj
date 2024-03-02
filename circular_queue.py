@@ -39,16 +39,16 @@ class CircularQueue:
 
 
 # Example usage:
-cq = CircularQueue(max_length=5)
-cq.enqueue(1)
-cq.enqueue(2)
-cq.enqueue(3)
-cq.enqueue(4)
-cq.enqueue(5)
-cq.display()  # Output: 1 2 3 4 5
-cq.enqueue(6)
-cq.display()  # Output: 2 3 4 5 6
-cq.dequeue()
-cq.display()  # Output: 3 4 5 6
-cq.enqueue(7)
-cq.display()  # Output: 3 4 5 6 7
+# cq = CircularQueue(max_length=5)
+# cq.enqueue(1)
+# cq.enqueue(2)
+# cq.enqueue(3)
+# cq.enqueue(4)
+# cq.enqueue(5)
+# cq.display()  # Output: 1 2 3 4 5
+# cq.enqueue(6)
+# cq.display()  # Output: 2 3 4 5 6
+# cq.dequeue()
+# cq.display()  # Output: 3 4 5 6
+# cq.enqueue(7)
+# cq.display()  # Output: 3 4 5 6 7
